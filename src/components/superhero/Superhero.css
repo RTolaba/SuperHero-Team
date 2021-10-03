@@ -2,8 +2,8 @@
     background-color: darkred;
     border-radius: 10px;
     padding: 10px;
-    margin: 20px;
-    width: 80%;
+    margin: 20px ;
+    width: 65%;
 }
 
 .Hero img{
@@ -14,12 +14,14 @@
 }
 
 .Hero-Stats{
-    background-color: darkorchid;
-    padding-left: 10%;
-    padding-right: 10%;
+    text-align: left;
+    
+    padding-left: 10px;
+    padding-right: 10px;
     width: auto;
+    /*min-width: 176px;*/
+    align-items: center;  
 }
-
 
 
 

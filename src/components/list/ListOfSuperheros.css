@@ -1,0 +1,10 @@
+.Superhero-Card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.Superhero-Card :hover{
+    background-color: rgb(99, 1, 1);
+}

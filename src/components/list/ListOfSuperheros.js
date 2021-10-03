@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import getApi from '../../services/getSuperhero'
 import Superhero from '../superhero/Superhero'
+import './ListOfSuperheros.css'
 
 export default function ListOfSuperheros({team=[]}) {
     
@@ -14,16 +15,18 @@ export default function ListOfSuperheros({team=[]}) {
  }, [team])
 
     return heros.map(({id, name, fullname, url, alignment, powerstats, appearance, work}) => 
-        <Superhero 
-        id={id}s
-        key={id}
-        name={name}
-        fullname={fullname}
-        url={url}
-        alignment={alignment}
-        powerstats={powerstats}
-        appearance={appearance}
-        work={work}    
-        />
+        <div className="Superhero-Card" key={id}>
+            <Superhero 
+            id={id}
+            name={name}
+            fullname={fullname}
+            url={url}
+            alignment={alignment}
+            powerstats={powerstats}
+            appearance={appearance}
+            work={work}    
+            />
+        </div>
+        
     )   
 }

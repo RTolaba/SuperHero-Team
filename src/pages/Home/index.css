@@ -1,0 +1,14 @@
+.Home {
+    width: auto;
+}
+.GridHeros {
+    margin: 20px;
+    border: red 2px solid;
+    align-items: center;
+    max-width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
