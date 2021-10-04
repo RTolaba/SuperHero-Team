@@ -1,5 +1,6 @@
 import './Superhero.css'
 
+
 export default function Superhero({id, name, fullname, url, alignment, powerstats, appearance, work }){
 
     if(powerstats === undefined){
@@ -54,3 +55,12 @@ export default function Superhero({id, name, fullname, url, alignment, powerstat
     }
     
 }
+
+/*<SuperheroInfo 
+        valorModal={true}
+        name={name}
+        full={fullname}
+        appearance={appearance}
+        work={work}
+        />
+        */
